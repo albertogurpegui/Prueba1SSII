@@ -273,7 +273,6 @@
 		65832D4B205A6DE5002E8C79 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V9UK4F2999;
 				INFOPLIST_FILE = Prueba1/Info.plist;
@@ -288,7 +287,6 @@
 		65832D4C205A6DE5002E8C79 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V9UK4F2999;
 				INFOPLIST_FILE = Prueba1/Info.plist;

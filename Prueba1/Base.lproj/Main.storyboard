@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pequeño Buu" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8lS-jk-SdV">
-                                <rect key="frame" x="123" y="87" width="132" height="68"/>
+                                <rect key="frame" x="121" y="80" width="132" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -29,7 +29,7 @@
                                 <size key="shadowOffset" width="-1" height="-1"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="KidBuu" translatesAutoresizingMaskIntoConstraints="NO" id="ukn-2g-BCW">
-                                <rect key="frame" x="54" y="180" width="266" height="379"/>
+                                <rect key="frame" x="54" y="189" width="266" height="348"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -40,7 +40,69 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1246" y="490"/>
+            <point key="canvasLocation" x="1245.5999999999999" y="489.80509745127438"/>
+        </scene>
+        <!--Buu Gohan-->
+        <scene sceneID="GFt-El-SDd">
+            <objects>
+                <viewController id="CbX-yb-cwn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jjC-gc-Jur">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Buu Gohan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pne-6d-Klq">
+                                <rect key="frame" x="120" y="90" width="135" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <size key="shadowOffset" width="-1" height="-1"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Buu_Gohan" translatesAutoresizingMaskIntoConstraints="NO" id="Sjh-cN-JTi">
+                                <rect key="frame" x="87" y="157" width="201" height="380"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="tkY-Ag-3Be"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Buu Gohan" id="997-lr-GxI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xbG-GG-GBr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1920.8" y="489.80509745127438"/>
+        </scene>
+        <!--Buu Cell-->
+        <scene sceneID="QCB-pI-uD5">
+            <objects>
+                <viewController id="0ow-dJ-Bee" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ena-6N-q8Y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Buu Cell" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40B-sh-LBO">
+                                <rect key="frame" x="122" y="93" width="131" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <size key="shadowOffset" width="-1" height="-1"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Buu_Cell" translatesAutoresizingMaskIntoConstraints="NO" id="516-Lr-V8k">
+                                <rect key="frame" x="67" y="160" width="240" height="404"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="K8A-J5-Cqz"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Buu Cell" id="Vwv-h0-5Qk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c2k-2j-NsS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2589.5999999999999" y="489.80509745127438"/>
         </scene>
         <!--Buu Maligno-->
         <scene sceneID="DZ4-40-uAm">
@@ -60,7 +122,7 @@
                                 <size key="shadowOffset" width="-1" height="-1"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Buu_Maldad" translatesAutoresizingMaskIntoConstraints="NO" id="CQz-hM-Ra9">
-                                <rect key="frame" x="67" y="203" width="240" height="303"/>
+                                <rect key="frame" x="67" y="195" width="240" height="330"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -71,7 +133,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9qi-0e-WFs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="566" y="490"/>
+            <point key="canvasLocation" x="565.60000000000002" y="489.80509745127438"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="78t-2A-LOR">
@@ -86,7 +148,11 @@
                         <segue destination="42h-Ha-CIT" kind="relationship" relationship="viewControllers" id="vEs-MS-Ftw"/>
                         <segue destination="eME-Hv-62U" kind="relationship" relationship="viewControllers" id="ft4-kQ-bnx"/>
                         <segue destination="SMX-C0-CgV" kind="relationship" relationship="viewControllers" id="MIZ-Js-OQX"/>
+                        <segue destination="r6q-tB-g0c" kind="relationship" relationship="viewControllers" id="KOd-8V-htO"/>
+                        <segue destination="d6b-mP-5RA" kind="relationship" relationship="viewControllers" id="s4x-ca-8Y5"/>
+                        <segue destination="CbX-yb-cwn" kind="relationship" relationship="viewControllers" id="V49-Qw-EM3"/>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="iDG-0b-bkU"/>
+                        <segue destination="0ow-dJ-Bee" kind="relationship" relationship="viewControllers" id="y6j-TZ-0d9"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vzm-Oe-4bF" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -102,7 +168,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Super Buu " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="95V-ko-cRJ">
-                                <rect key="frame" x="122" y="83" width="130" height="64"/>
+                                <rect key="frame" x="122" y="81" width="132" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -111,7 +177,7 @@
                                 <size key="shadowOffset" width="-1" height="-1"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Super_Buu" translatesAutoresizingMaskIntoConstraints="NO" id="Co2-fW-KSe">
-                                <rect key="frame" x="46" y="171" width="283" height="387"/>
+                                <rect key="frame" x="40" y="173" width="295" height="387"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -122,7 +188,69 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GfP-8W-eHC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1246" y="-192"/>
+            <point key="canvasLocation" x="1245.5999999999999" y="-192.05397301349328"/>
+        </scene>
+        <!--Buu Gotenks-->
+        <scene sceneID="qsY-Cj-sxK">
+            <objects>
+                <viewController id="r6q-tB-g0c" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="skZ-ZH-sCZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Buu Gotenks" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FU5-bl-MgR">
+                                <rect key="frame" x="120" y="84" width="135" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <size key="shadowOffset" width="-1" height="-1"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Buu_Gotenks" translatesAutoresizingMaskIntoConstraints="NO" id="k4w-No-NiQ">
+                                <rect key="frame" x="67" y="201" width="240" height="342"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="iKT-6E-suJ"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Buu Gotenks" id="GYq-hN-RRS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lwZ-N8-ZuM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1920.8" y="-192.05397301349328"/>
+        </scene>
+        <!--Buu Picolo-->
+        <scene sceneID="WVp-0e-SmP">
+            <objects>
+                <viewController id="d6b-mP-5RA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7fq-hf-IxC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Buu Piccolo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZzP-gT-f1i">
+                                <rect key="frame" x="122" y="88" width="130" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <size key="shadowOffset" width="-1" height="-1"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Buu_Piccolo" translatesAutoresizingMaskIntoConstraints="NO" id="tDR-Cg-8MP">
+                                <rect key="frame" x="63" y="192" width="248" height="352"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="3yu-I1-5mB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Buu Picolo" id="DDa-gk-THI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3th-NO-9x9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2589.5999999999999" y="-192.05397301349328"/>
         </scene>
         <!--Buu Bueno-->
         <scene sceneID="gQ6-I4-YZU">
@@ -158,7 +286,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Buu_Cell" width="770" height="1414"/>
+        <image name="Buu_Gohan" width="686" height="1600"/>
+        <image name="Buu_Gotenks" width="1024" height="1632"/>
         <image name="Buu_Maldad" width="426" height="568"/>
+        <image name="Buu_Piccolo" width="1500" height="2348"/>
         <image name="KidBuu" width="664" height="1080"/>
         <image name="Majin_Buu" width="726" height="1099"/>
         <image name="Super_Buu" width="426" height="568"/>
